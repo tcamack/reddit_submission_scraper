@@ -148,7 +148,7 @@ class GetComments():
                                index=None, quoting=2)
 
             while True:
-                # Giving this some leniency in caseof an error during the
+                # Giving this some leniency in case of an error during the
                 # request.
                 if len(comment_df1) > 8999:
                     before = comment_df1['dt'].min()
